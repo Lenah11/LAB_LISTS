@@ -26,6 +26,23 @@ print(f"the largest number: {max_list(list1)}")
 odd_number_list = [number for number in range(1200,2000,125) if number%2!=0]
 print(odd_number_list)
 
+##Q2:Write a function that receives a list containing the following numbers : 
+
+def rearrange_list(): 
+    my_list = [5, 0, 34, 9, 0, 13, 8]
+    for num in my_list:
+        if num==0:
+            my_list.append(0)
+            my_list.remove(0)
+    print(my_list)
+
+rearrange_list()
+
+
+
+
+
+
 
 # Bonus
 
